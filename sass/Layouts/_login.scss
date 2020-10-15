@@ -1,0 +1,61 @@
+.login__container {
+    width: 100%;
+    background: url(../img/pattern.png) no-repeat center center;
+    border-bottom: 1px solid $color-white-0;
+    position: relative;
+    .tad_res {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 10;
+    }
+    .tad__log {
+        position: absolute;
+        top: 70px;
+        left: 250px;
+        z-index: 10;
+    }
+
+    ul {
+        list-style: none;
+        p {
+            margin: 10px 0 0;
+        }
+    }
+    #myTab {
+        .nav-link {
+            font-size: 1rem;
+            font-weight: $fw-bold-0;
+            color: $color-pink-0;
+            align-items: center;
+            padding: 0 30px 0 0px;
+            transition: all 0.5s;
+            border: none;
+
+            &:hover {
+                color: $color-yellow-2;
+                text-decoration: none;
+            }
+        }
+        .nav-link.active {
+            border: none;
+            color: $color-yellow-2 !important;
+            + .tad__resgiter {
+                display: block;
+            }
+        }
+    }
+    .login__call {
+        a {
+            font-size: 1.875rem;
+            font-weight: $fw-bold-0;
+            color: $color-yellow-0;
+            padding: 10px;
+            transition: all 0.5s;
+            &:hover {
+                text-decoration: none;
+                color: $color-pink-0;
+            }
+        }
+    }
+}

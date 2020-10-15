@@ -1,0 +1,21 @@
+.promotion__content {
+    padding: 40px 0;
+    .promotion__title {
+        display: inline-block;
+        vertical-align: top;
+        background: url(../img/icon-promotion.png) no-repeat left bottom;
+        position: relative;
+        h2 {
+            width: 100px;
+            position: absolute;
+            top: 35px;
+            left: 1%;
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: white;
+            transform: rotate(270deg);
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+}

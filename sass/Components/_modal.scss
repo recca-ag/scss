@@ -1,0 +1,36 @@
+#exampleModal1,
+#exampleModal2,
+#exampleModal3,
+#exampleModal4,
+#exampleModal5 {
+    .modal-dialog {
+        max-width: 900px !important;
+        .modal-header h4 {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        .modal-content {
+            border-radius: 0px;
+            border: 10px solid gray;
+            padding: 15px;
+        }
+        .modal-body {
+            font-size: 0.9rem;
+            line-height: 21px;
+            color: rgb(99, 99, 99);
+        }
+        .close {
+            padding: 10px 15px;
+            border-radius: 50%;
+            background-color: $color-pink-0;
+            color: white;
+            margin: -20px;
+            opacity: 1;
+            transition: all 0.5s;
+            &:hover {
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+                background-color: #f2b819;
+            }
+        }
+    }
+}

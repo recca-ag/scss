@@ -1,0 +1,54 @@
+footer {
+    overflow: overlay;
+    .footer__payment {
+        width: 100%;
+        height: auto;
+        padding: 15px 20px;
+        text-align: center;
+
+        h2 {
+            font-size: 14px;
+            color: #b3c4d5;
+
+            margin-bottom: 14px;
+        }
+        a {
+            padding: 1px;
+            transition: all 0.5s;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+    .footer__copyright {
+        padding: 24px 20px;
+        background-color: black;
+        text-align: center;
+        img {
+            width: 150px;
+            height: 57px;
+        }
+        p {
+            margin: 0;
+
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #919191;
+            line-height: 14px;
+        }
+    }
+    @include responsive("small") {
+        .footer__payment img {
+            width: 10%;
+        }
+        .footer__copyright {
+            img {
+                width: 110px;
+                height: 40px;
+            }
+            p {
+                font-size: 0.5rem;
+            }
+        }
+    }
+}

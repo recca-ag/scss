@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  @include styleText($fs-2, $fw-normal, $color-black-0);
+  // overflow: overlay;
+}
+body {
+  background: url(../img/bg-body.png) repeat-y left top;
+  background-size: contain;
+  background-color: transparent;
+  // overflow: hidden;
+  .bg__container {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    background: url(../img/bg-top.png), url(../img/bg-footer.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center bottom;
+    background-color: transparent;
+    background-size: contain;
+    overflow: hidden;
+    // position: relative;
+    // .header__container {
+    //   width: 100%;
+    //   height: 100%;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    // }
+  }
+  section {
+    width: 100%;
+    height: auto;
+    // overflow: hidden;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+  }
+}
+.backToTop {
+  background: url(../img/top.png) no-repeat center center;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  opacity: 0;
+  /* visibility: hidden làm ẩn đi phím tad */
+  visibility: hidden;
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  display: block;
+  background-color: #e00d7a;
+  z-index: 20;
+  transition: all 0.5s;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+@include responsive("medium") {
+  .backToTop {
+    width: 50px;
+    height: 50px;
+  }
+}
+@include responsive("small") {
+  .backToTop {
+    width: 40px;
+    height: 40px;
+  }
+}
+@include responsive("xsmall") {
+  .backToTop {
+    width: 30px;
+    height: 30px;
+  }
+}

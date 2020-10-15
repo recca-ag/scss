@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CINESTAR</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+  <!-- OWL CAROUSEL -->
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+  <!-- VENOBOX -->
+  <link rel="stylesheet" href="./css/venobox.min.css">
+
+  <!-- MAIN CSS -->
+
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="bg__container">
+
+    <!-- HEADER NAVBAR -->
+    <header class="header__container">
+      <div class="bg__line"></div>
+      <div class="nav__container">
+        <div class="search__container d-flex justify-content-end py-2">
+          <div class="search__form">
+            <form class="form-inline my-2 my-lg-0 ">
+              <input class="form-control mr-sm-2 nav__input" type="search" placeholder="Tìm kiếm..."
+                aria-label="Search" />
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+
+              </button>
+            </form>
+          </div>
+          <div class="trans__english d-block">
+            <a href="#">EN</a>
+          </div>
+        </div>
+        <div class="row container__item">
+          <div class="col-6 col-md-6 col-lg-2">
+            <div class="bg__logo">
+              <img src="./img/logo.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-10">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent justify-content-end px-0">
+              <a class="navbar-brand bg__item" href="#"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav m-0">
+                  <li class="nav-item active">
+                    <a class="nav-link nav--start" href="#">PHIM <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LỊCH CHIẾU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">RẠP VÀ GIÁ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">KHUYẾN MÃI</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">HỎI VÀ ĐÁP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TIN TỨC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">GIỚI THIỆU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav--end" href="#">LIÊN HỆ</a>
+                  </li>
+
+
+                </ul>
+
+
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- LOGIN -->
+    <section class="login__container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="btn-resgiter nav-item" role="presentation">
+              <a class="nav-link d-inline-flex" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                aria-controls="contact" aria-selected="false"><img src="./img/icon-register.png" alt=""
+                  class="img-fluid pt-1">
+                <p>ĐĂNG KÝ THÀNH VIÊN</p>
+              </a>
+            </li>
+            <li class="btn-login nav-item" role="presentation">
+              <a class="nav-link d-inline-flex" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                aria-controls="profile" aria-selected="false"><img src="./img/icon-login.png" alt=""
+                  class="img-fluid pt-1">
+                <p>ĐĂNG NHẬP</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="d-inline-flex login__call">
+            <img src="./img/icon-call.png" alt="" class="img-fluid pt-1">
+            <a href="" class="hotline">028 7300 8881</a>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade tad_res" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="tad__resgiter">
+
+            <div class="over__lay"></div>
+            <p>Vui lòng nhập thông tin</p>
+            <form action="">
+              <div class="row justify-content-between">
+                <div class="col-12 gender">
+                  <label for="gender-nam">
+                    <input type="radio" name="gender" id="gender-nam" value="1">
+                    <span class="gender-name">Nam</span>
+                    <span class="gender-shape"></span>
+                  </label>
+                  <label for="gender-nu">
+                    <input type="radio" name="gender" id="gender-nu" value="0">
+                    <span class="gender-name">Nu</span>
+                    <span class="gender-shape"></span>
+                  </label>
+                </div>
+                <input type="text" name="" id="" placeholder="HỌ TÊN (*)" class="col-5 bg__text">
+                <input type="text" name="" id="" placeholder="DD/MM/YY (NGÀY SINH*)" class="col-5 bg__text">
+                <input type="text" name="" id="" placeholder="ĐỊA CHỈ (*)" class="col-12 bg__text">
+                <input type="number" name="" id="" placeholder="SỐ CMND/BẰNG LÁI (*)" class="col-5 bg__text">
+                <input type="tel" name="" id="" placeholder="ĐIỆN THOẠI (*)" class="col-5 bg__text">
+                <input type="email" name="" id="" placeholder="EMAIL (*)" class="col-5 bg__text">
+                <input type="text" name="" id="" placeholder="TÊN ĐĂNG NHẬP (*)" class="col-12 bg__text">
+                <input type="password" name="" id="" placeholder="MẬT KHẨU (*)" class="col-5 bg__text">
+                <input type="password" name="" id="" placeholder="NHẬP LẠI MẬT KHẨU (*)" class="col-5 bg__text">
+                <div class="col-12 check__item">
+                  <label for="check__box">
+                    <input type="checkbox" name="" id="check__box">
+                    <span class="check__icon"></span>
+                  </label>
+                  <span class="check__text">Khách hàng đã đồng ý các điều khoản, điều kiện của thành viên
+                    Cinestar</span>
+                </div>
+                <div class="btn-submit">
+                  <input type="submit" value="ĐĂNG KÝ" class="btn-resgiter">
+                </div>
+
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+        <div class="tab-pane fade tad__log" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="tad__login">
+            <div class="over__lay"></div>
+            <p>Vui lòng nhập tên người dùng(email) và mật khẩu</p>
+
+            <form action="">
+              <div class="row">
+                <input type="text" name="" id="login__email" placeholder="" class="col-12 user__name">
+                <input type="password" name="" id="login__password" placeholder="" class="col-12 user__password">
+                <input type="submit" value="ĐĂNG NHẬP" class="col-6 btn-resgiter">
+                <a href="" class="col-6 user__link">TÌM LẠI MẬT KHẨU</a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <!-- CAROULSEL -->
+    <section class="caroulsel__content">
+      <div class="owl-carousel owl-theme" id="owl__banner">
+        <div class="item">
+          <img src="./img/banner1.jpg" alt="" class="">
+
+        </div>
+        <div class="item">
+          <img src="./img/banner2.jpg" alt="" class="">
+
+        </div>
+        <div class="item">
+          <img src="./img/banner3.jpg" alt="" class="">
+
+        </div>
+        <div class="item">
+          <img src="./img/banner4.jpg" alt="" class="">
+
+        </div>
+        <div class="item">
+          <img src="./img/banner5.jpg" alt="" class="">
+        </div>
+
+      </div>
+    </section>
+    <section class="cart__content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 col-xl-5 cart__left">
+            <div class="cart__img"><img src="./img/icon-ticket.png" alt="" class="img-fluid"></div>
+            <h2 class="cart__text">MUA VÉ <br> ONLINE</h2>
+          </div>
+          <div class="col-12 col-lg-8 col-xl-7 cart__right py-3">
+            <div class="row ">
+              <div class="col-12 col-sm-6 mb-2">
+                <div class="dropdown dropdown--phim">
+                  <button class="btn btn__phim btn-secondary dropdown-toggle" type="button" id="drop__phim"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CHỌN PHIM
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="drop__phim">
+                    <a class="dropdown-item" href="#">TRẬN CHIẾN MIDWAY(C16)</a>
+                    <a class="dropdown-item" href="#">SKYTOUR</a>
+                    <a class="dropdown-item" href="#">GIA TÀI TỘI LỖI (C16)</a>
+                    <a class="dropdown-item" href="#">KẺ ĐÀO TẨU GIẤC MƠ (C16)</a>
+                    <a class="dropdown-item" href="#">CĂN PHÒNG ĐẪM MÁU (C18)</a>
+                    <a class="dropdown-item" href="#">TÔI LÀ NÃO CÁ VÀNG</a>
+                    <a class="dropdown-item" href="#">GIẢI CỨU CÂY ƯỚC NGUYỆN 2D PĐ</a>
+                    <a class="dropdown-item" href="#">KẺ TRỰC ĐÊM (C18)</a>
+                    <a class="dropdown-item" href="#">BẢN GIAO HƯỞNG MÁU</a>
+                    <a class="dropdown-item" href="#">FUKUSHIMA 50 (C13): THẢM HỌA KÉP</a>
+                    <a class="dropdown-item" href="#">TROLLS: QUỶ LÙN TINH NGỊCH 2D LT</a>
+                    <a class="dropdown-item" href="#">SAM SAM 2D LT</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 mb-2">
+                <div class="dropdown dropdown--phim">
+                  <button class="btn btn__rap btn-secondary dropdown-toggle" type="button" id="drop__rap"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CHỌN RẠP
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="drop__rap">
+                    <a class="dropdown-item" href="#">CINESTAR QUỐC THANH</a>
+                    <a class="dropdown-item" href="#">CINESTAR HUẾ</a>
+                    <a class="dropdown-item" href="#">CINESTAR MỸ THO</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="dropdown dropdown--phim">
+                  <button class="btn btn__ngay btn-secondary dropdown-toggle" type="button" id="drop__ngay"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CHỌN NGÀY
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="drop__ngay">
+                    <a class="dropdown-item" href="#">TRẬN CHIẾN MIDWAY(C16)</a>
+                    <a class="dropdown-item" href="#">SKYTOUR</a>
+                    <a class="dropdown-item" href="#">GIA TÀI TỘI LỖI (C16)</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="dropdown dropdown--phim">
+                  <button class="btn btn__suatChieu btn-secondary dropdown-toggle" type="button" id="drop__suatChieu"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CHỌN SUẤT CHIẾU
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="drop__suatChieu">
+                    <a class="dropdown-item" href="#">TRẬN CHIẾN MIDWAY(C16)</a>
+                    <a class="dropdown-item" href="#">SKYTOUR</a>
+                    <a class="dropdown-item" href="#">GIA TÀI TỘI LỖI (C16)</a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="movie__content">
+      <div class="container d-flex movie__listItem">
+
+        <a href="" data-toggle="modal" data-target="#exampleModal1"><img src="./img/g1.png" alt=""
+            class="movie__img"></a>
+        <a href="" data-toggle="modal" data-target="#exampleModal2"><img src="./img/christie.png" alt=""
+            class="movie__img"></a>
+        <a href="" data-toggle="modal" data-target="#exampleModal3"><img src="./img/2d.png" alt=""
+            class="movie__img"></a>
+        <a href="" data-toggle="modal" data-target="#exampleModal4"><img src="./img/3d3.png" alt=""
+            class="movie__img"></a>
+      </div>
+
+      <div class="movie__list ">
+        <ul class="nav nav-pills list__content" id="pills-tab" role="tablist">
+          <li class="nav-item nav--start" role="presentation">
+            <a class="nav-link nav-link1 active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+              aria-controls="pills-home" aria-selected="true">PHIM ĐANG CHIẾU</a>
+          </li>
+          <li class="nav-item nav--end" role="presentation">
+            <a class="nav-link nav-link1" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+              aria-controls="pills-profile" aria-selected="false">PHIM SẮP CHIẾU</a>
+          </li>
+          <li class="nav-item nav__theEnd" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+              aria-controls="pills-contact" aria-selected="false">SUẤT CHIẾU ĐẶC BIỆT</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+            <div class="owl-carousel owl-theme owl-movie" id="owl__nowMovie">
+
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/sky.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> SKY TOUR</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Mùa hè năm 2019, Sơn Tùng M-TP và công ty M-TP Entertainment đã tổ chức thành công chuỗi sự
+                        kiện
+                        âm
+                        nhạc SKY TOUR tại cả ba thành phố lớn: Thành phố Hồ Chí Minh, Đà Nẵng và Hà Nội. Để cùng người
+                        hâm
+                        mộ nhìn lại một hành trình âm nhạc rực rỡ và ấn tượng, Sơn Tùng M-TP và công ty M-TP
+                        Entertainment
+                        chính thức phát hành bộ phim tài liệu âm nhạc SKY TOUR tại các cụm rạp khắp cả nước.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/t7m1iqs_b-U">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/fukushima.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> FUKUSHIMA 50 (C13): THẢM HỌA KÉP</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Fukushima 50 là tác phẩm điện ảnh tái hiện lại trận động đất 9.0 độ richter xảy ra tại
+                        Fukushima, kéo theo sau đó là cơn sóng thần với độ cao khủng khiếp, phá hủy nhà máy điện hạt
+                        nhân Daiichi. Không còn cách nào khác, 50 công nhân tại nhà máy đã không màng hiểm nguy để ở
+                        lại, tìm cách làm nguội các lò phản ứng nhằm ngăn chặn nguy cơ xảy ra một trong những sự cố
+                        hạt nhân kinh khủng nhất lịch sử loài người.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/r-TIYjlUtMw">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/sona.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> BẢN GIAO HƯỞNG MÁU</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Để làm sáng tỏ quá khứ của người cha quá cố, nữ nghệ sĩ violon trẻ tuổi đã vô tình kích hoạt
+                        những thế lực đen tối vượt qua trí tưởng tượng bình thường của con người.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/fw-_K4B0eck">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/giaicuu.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> THE WISHMAS TREE - GIẢI CỨU CÂY ƯỚC NGUYỆN 2D PĐ</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Kerry, một cô nàng thú túi nhận được một điều ước và cô đã ước rằng cô có thể có một cây Ước
+                        Nguyện màu trắng. Thế nhưng, cách mà cô ước lại hoá sai và tệ hại hơn, nó làm đóng băng toàn
+                        bộ thành phố Sanctuary City của cô, còn đe dọa cuộc sống của tất cả những người sống ở đó.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/i9iRRt9VrNg">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/intruder.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> KẺ XÂM NHẬP</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Vợ của Seo-jin đã qua đời trong một vụ tai nạn giao thông và anh luôn cố gắng tìm ra thủ phạm
+                        bằng phương pháp thôi miên. Trong lúc thôi miên, Seo-jin luôn nhìn thấy bóng dáng của người em
+                        gái You-jin đã mất tích 25 năm trước. Một ngày nọ, Seo-jin nhận được cuộc gọi thông báo đã tìm
+                        thấy em gái mình. You-jin trở về nhà như một người hoàn toàn xa lạ, Seo-jin bằng linh cảm đã
+                        cố gắng thuyết phục mọi người đây không phải em gái của mình. Liệu You-jin có phải là em gái
+                        thất lạc thật sự của Seo-jin hay không? Liệu cô em gái này có dinh liếu đến tại nạn của vợ anh
+                        hay không khi trong những lần thôi miên tiếp theo anh luôn thấy hình ảnh You-jin gần hiện
+                        trường tai nạn.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/sUsWVStyfvM">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/trolls.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> TROLLS: QUỶ LÙN TINH NGHỊCH 2D LT</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Tiếp nối phần trước, Quỷ lùn tinh nghịch: Chuyến lưu diễn thế giới đưa người xem trở lại thế
+                        giới Trolls cùng Poppy, cô quỷ lùn vui vẻ nhất từng được biết tới. Qua lời kể của “già làng”
+                        King Peppy, nguồn gốc của vương quốc Trolls dần được hé lộ. Từ rất xưa tổ tiên trolls đã tạo
+                        ra cây đàn thần 6 dây, mỗi dây ứng với một thể loại nhạc khác nhau gồm pop, đồng quê -
+                        country, funk, techno, cổ điển và rock.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/8903NC13mk8">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/midway.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> TRẬN CHIẾN MIDWAY (C16)</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Vào ngày 7 tháng 12 năm 1941, quân đội Nhật Bản đã tiến hành một cuộc tấn công tàn khốc vào
+                        Trân Châu Cảng, căn cứ hải quân của Hoa Kỳ ở Hawaii. Sáu tháng sau, Trận Midway bắt đầu vào
+                        ngày 4 tháng 6 năm 1942, khi hải quân Nhật Bản một lần nữa lên kế hoạch tấn công các tàu Mỹ ở
+                        Thái Bình Dương. Trong ba ngày tiếp theo, Hải quân Hoa Kỳ và một đội phi công dũng cảm đã
+                        quyết chiến với kẻ thù trong một trong những trận chiến quan trọng và mang tính quyết định của
+                        Thế chiến II.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/Jl0J8Fd1WPE">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/toilanao.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> TÔI LÀ NÃO CÁ VÀNG</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Tôi Là Não Cá Vàng xoay quanh cuộc sống của một nhà thiết kế thời trang xinh đẹp nhưng mắc
+                        căn bệnh Alzheimer. Với cô, mỗi ngày đều là một ngày mới vì những ký ức ngày cũ dường như tan
+                        biến cả.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/R-uwtlghf-4">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/lingering.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> CĂN PHÒNG ĐẪM MÁU (C18)</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Những câu chuyện kỳ lạ xung quanh khách sạn Bờ Hồ khiến người ta hóa điên. Tại khách sạn này,
+                        có 3 điều tuyệt đối không được làm: không được ngước nhìn lên, không được đi một mình và không
+                        được bước vào phòng 405.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/IjR6KWVZ1hU">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/ketrucdem.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> KẺ TRỰC ĐÊM (C18)</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Bart Bromley là một nhân viên bán hàng đêm rất thông minh. Khi một phụ nữ bị sát hại trong ca
+                        làm việc của mình, Bart đã trở thành nghi phạm chính. Và khi cuộc điều tra của cảnh sát khép
+                        lại, Bart tạo mối liên hệ cá nhân với một vị khách xinh đẹp tên Andrea, nhưng anh sớm nhận ra
+                        mình phải ngăn chặn kẻ giết người thực sự trước khi Andrea trở thành nạn nhân tiếp theo.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/efNTKDbb3MA">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/giatai.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> GIA TÀI TỘI LỖI (C16)</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Lauren Monroe (Lily Collins), một luật sư trẻ tuổi thành công và tham vọng, là con gái của
+                        một gia đình quyền lực và giàu có bậc nhất ở New York. Khi cha cô (Patrick Warburton) đột ngột
+                        qua đời, cô được trao chiếc chìa khóa dẫn đến một căn hầm tránh bom bí ẩn. Căn hầm này chứa
+                        đựng món thừa kế khổng lồ dành cho Lauren. Tuy nhiên, thay vì của cải vật chất, cô phát hiện
+                        "món thừa kế" của mình lại là một người đàn ông bí ẩn (Simon Pegg), bị nhốt và bị giam cầm
+                        trong nhiều năm trong căn hầm tối tăm. Lauren đứng trước sự lựa chọn giữa việc khám phá bí mật
+                        về người đàn ông đó hoặc quay trở lại cuộc sống bình thường, im lặng chấp nhận "tài sản thừa
+                        kế đặc biệt" của mình vì những gì Lauren khám phá ra được có thể sẽ đe dọa gia đình cô và tất
+                        cả những người xung quanh.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/pMEaOJQbXuo">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="owl-carousel owl-theme owl-movie" id="owl__nowMovie1">
+
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/mequy.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> MẸ QUỶ (C18)</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>The Wretched / Mẹ Quỷ là tác phẩm điện ảnh thuộc thể loại kinh dị với câu chuyện xoay quanh một
+                        cậu bé ương ngạnh, phải vật lộn với cuộc ly hôn sắp xảy ra của bố mẹ mình và đối mặt với mụ phù
+                        thủy nghìn năm tuổi, sống dưới lốt của của một người phụ nữ kế bên nhà.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/vOC66B0w3-I">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/nhimsoc.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> NHÍM, SÓC VÀ VIÊN ĐÁ THẦN KÌ LT</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Hành trình tìm lại viên đá nước thần kỳ của Nhím, Sóc để tìm lại nguồn nước tránh lời nguyền,
+                        hạn hán, cứu muôn loài khỏi tuyệt chủng.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/CWlMYl4hKyY">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/nhungcovo.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> NHỮNG CÔ VỢ HÀNH ĐỘNG</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Những Cô Vợ Hành Động xoay quanh những tình huống dở khóc dở cười trong cuộc sống hôn nhân của
+                        ba cặp đôi trẻ tuổi, cụ thể là kế hoạch hành động “đặc sắc” của các cô vợ khi phát hiện 3 anh
+                        chồng trốn nhà đi chơi xuyên đêm.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/Dg6G9sTS38w">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/100wolf.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> SÓI 100%</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Phim là câu chuyện kể về Freddy Lupin - người thừa kế một gia đình sói quý tộc. Vào sinh nhật
+                        lần thứ 13 của mình, Freddy phải thực hiện nghi lễ trưởng thành và biến hình thành sói trước sự
+                        chứng kiến của các thành viên trong gia tộc. Thế nhưng, cậu lại biến thành một chú chó lông xù
+                        (Poodle). Trong lúc tuyệt vọng và nghĩ rằng cuộc đời đã chấm hết, Freddy bắt đầu một cuộc phiêu
+                        lưu mới đầy thú vị và vui nhộn; nhưng bất ngờ khám phá ra sự thật về cái chết bí ẩn của cha
+                        mình, rồi biết được một thợ săn người sói đang lên kế hoạch tiêu diệt tất cả gia đình và bạn bè
+                        cậu. Với vẻ ngoài nhỏ bé của một chú cún, liệu Freddy có ngăn chặn được âm mưu độc ác và chứng
+                        minh mình là sói 100%?</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/dhg_M_2nzn8">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/trungquy.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> TRÙNG QUỶ ĐẠI DƯƠNG (C18)</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Sea Fever xoay quanh một tuần thực nghiệm ngoài khơi của nghiên cứu sinh hải dương học Siobhán
+                        trên một chuyến tàu đánh cá. Hiểm nguy bỗng ập tới bất ngờ khi một loài sinh vật biển bí ẩn bắt
+                        đầu tấn công con tàu, rồi các thủy thủ dần dần bị nhiễm bệnh lạ. Lênh đênh và cô độc giữa Đại
+                        Tây Dương sâu thẳm, làm cách nào để Siobhán tự cứu lấy chính mình và mọi người trước khi quá
+                        muộn?</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/l5pczqlxP1E">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/achou.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> ACHOURA</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Bốn người bạn thân vô tình gặp lại nhau kể từ khi một trong số họ bỗng nhiên biến mất 25 năm
+                        trước. Kèm theo sự tái ngộ là sự xuất hiện của một thực thể quái dị, sinh vật kì bí này là được
+                        mọi người đồn đoán là sinh ra từ một truyền thuyết cổ.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/zIseuUHN5wM">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/buoiphatsong.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> BUỔI PHÁT SÓNG KINH HOÀNG</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Một ngôi sao mạng xã hội du lịch đến nước Nga cùng những người bạn để tìm những nội dung mới
+                        đầy hấp dẫn cho kênh Vlog đang nổi của mình. Luôn muốn thách thức nhưng giới hạn mới và tham
+                        vọng thu hút thêm nhiều người xem, anh ta và các bạn của mình tham gia một trò chơi chết người
+                        bí ẩn và đầy nguy hiểm. Ranh giới giữa mạng xã hội ảo và cuộc sống thực mờ dần, cả nhóm phải
+                        chống cự để sống sót thoát ra.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/lU_fy5np1WI">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/bangchung.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> BẰNG CHỨNG VÔ HÌNH</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Sau khi bị thương trong một tai nạn ô tô, Thu - một cô gái mù đã đến trình báo cảnh sát về vụ
+                        việc mà cô tin rằng đã trở thành án mạng. Tuy nhiên, cô gặp không ít khó khăn để thuyết phục
+                        cảnh sát tin mình vì là người khiếm thị. Cùng lúc đó, Hải - một nhân chứng khác bất ngờ xuất
+                        hiện với lời khai mâu thuẫn với Thu về hiện trường vụ án. Trong khi cảnh sát còn đang đau đầu
+                        xác minh xem thông tin của ai là sự thật, tên sát nhân đã âm thầm theo dõi cả Thu và Hải để tìm
+                        cách thủ tiêu nhân chứng.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/MGiGvA6qvYg">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/bandao.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> BÁN ĐẢO PENINSULA</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Bán Đảo Peninsula có bối cảnh khoảng 4 năm sau đại dịch (phần 1 Train to Busan). Toàn bộ bán
+                        đảo Triều Tiên trở thành vùng đất hoang tàn và bị zombie xâm chiếm. Tuy nhiên, vẫn có một nhóm
+                        người bị mắc kẹt, họ phải chiến đấu để sinh tồn và chờ ngày được giải cứu.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/m1Y4JLzb5ws">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/woman1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> WONDER WOMAN 1984)</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Lấy bối cảnh năm 1984, 66 năm sau sự kiện diễn ra Thế Chiến thứ I (1918) ở phần phim đầu tiên,
+                        Wonder Woman tái hợp với người yêu tưởng chừng đã qua đời Steve Trevor, đồng thời đương đầu với
+                        hai kẻ thù mới là Max Lord và The Cheetah.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/61K6BSr6KiE">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/thenew.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> DỊ NHÂN THẾ HỆ MỚI</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>Năm dị nhân trẻ tuổi phát hiện ra siêu năng lực của mình khi bị giam giữ trong một cơ sở bí
+                        mật. Nhóm dị nhân không những phải tìm cách thoát khỏi cơ sở bí mật mà còn phải tự thoát ra khỏi
+                        những việc đen tối trong quá khứ.</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/PbHVJhmJJ2c">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="owl-carousel owl-theme owl-movie" id="owl__nowMovie2">
+              <div class="item">
+                <div class="movie__pic">
+
+                  <img src="./img/conmua.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="movie__txt">
+                  <h3> CƠN MƯA TÌNH ĐẦU (C16)</h3>
+                  <div class="movie__icon">
+                    <img src="./img/2d.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="movie_over">
+                  <div class="movie__over1">
+                    <a href="">
+                      <p>CLASSIC AGAIN là sự đan xen của hai câu chuyện tình yêu cách nhau 3 thập kỷ. Bota và cô bạn
+                        thân Poppy cùng cảm nắng Non – một anh bạn cùng trường đại học. Hiểu tấm lòng của người bạn
+                        thân, Bota giấu đi cảm xúc thật của mình để cổ vũ Poppy đến với Non. Một ngày, Bota tình cờ tìm
+                        thấy chiếc hộp cũ chứa đầy những lá thư và kỷ niệm về mối tình đầu của mẹ. Những bức thư giữa mẹ
+                        cô, Dalah và một chàng trai nhà nghèo tên Kajorn khiến Bota nhận ra cảm xúc hiện tại của mình
+                        thật giống với câu chuyện tình dở dang của mẹ. Liệu cô có dũng cảm giữ lấy tình yêu của mình hay
+                        mối tình đầu của Bota cũng sẽ kết thúc đầy tiếc nuối?</p>
+
+                      <span class="btn__act">...</span>
+
+                      <span class="detail__links">Chi Tiết</span>
+                    </a>
+                    <a class="venobox_custom trailer__btn" data-vbtype="video" href="https://youtu.be/9Qs_wzEyMC4">XEM
+                      TRAILER</a>
+                    <a href="" class="cart__btn">MUA VÉ</a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <section class="promotion__content">
+      <div class="container ">
+        <div class="row">
+          <div class="col-2 col-lg-1 promotion__title">
+            <h2>ƯU ĐÃI</h2>
+
+          </div>
+          <div class="col-10 col-lg-11">
+            <div class="owl-carousel owl-theme owl-movie" id="owl__promotion">
+              <div class="item">
+                <a href="">
+                  <div class="item__pic">
+                    <img src="./img/uudai1.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="item__pic">
+                    <img src="./img/uudai2.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="item__pic">
+                    <img src="./img/uudai3.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="item__pic">
+                    <img src="./img/uudai4.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="item__pic">
+                    <img src="./img/uudai5.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="">
+                  <div class="item__pic">
+                    <img src="./img/uudai6.jpg" alt="">
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <section class="new__list">
+      <div class="container">
+        <div class="row">
+          <div class="col-2 col-lg-1 new__title ">
+            <h2>TIN TỨC</h2>
+          </div>
+          <div class="col-10 col-lg-11 ">
+            <div class="row">
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__left">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>[THE GENTLEMEN] - Guy Ritchie đạo diễn tỷ đô và dấu ấn phim hành động, tội phạm</h3>
+                      <p>Mùa hè 2019, Guy Ritchie tái xuất màn ảnh rộng và thành công vang dội với bom tấn Aladdin tỷ đô
+                        của
+                        Disney sau hai năm “nghỉ dưỡng” kể từ bộ phim gần nhất ra rạp. Nhưng có lẽ phần đông khán giả
+                        Việt
+                        Nam không phải ai cũng biết thế mạnh thực sự của vị đạo diễn đứng sau bom tấn live-action âm
+                        nhạc,
+                        chuyển thể hoạt hình “Disney” này lại là hành động, tội phạm, trinh thám có phần gai góc hơn
+                        hẳn.
+                        Cùng điểm qua những bộ phim ấn tượng nhất đã đưa tên tuổi của nhà làm phim sinh năm 1968 này lên
+                        bản
+                        đồ điện ảnh của Hollywood.</p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/df.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__right">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>CINESTAR MỸ THO - TUYỂN QUẢN LÝ CỤM RẠP</h3>
+                      <p>Tuyển dụng vị trí cụm rạp Cinestar Mỹ Tho </p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/cinestar-tuyen-dung-nhan-vien-phuc-vu-01.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__right">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>TUYỂN DỤNG NHÂN SỰ TẠI CINESTAR MỸ THO</h3>
+                      <p>Với mục tiêu xây dựng khối dịch vụ giải trí phức hợp gồm Rạp Chiếu phim- Nhà hàng- Trung tâm
+                        thể thao Bowling- Trò chơi chúng tôi liên tục tuyển dụng nhân viên cho các vị trí: </p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/cmt-web.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__left">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>CINESTAR MỸ THO CHÍNH THỨC RA MẮT TẠI TIỀN GIANG</h3>
+                      <p>Ngày 19.12.2019, Cinestar chính thức khai trương Trung Tâm Giải Trí - Rạp Chiếu Phim Cinestar
+                        Mỹ Tho tại số 52 Đinh Bộ Lĩnh, Phường 3, Thành phố Mỹ Tho, tỉnh Tiền Giang. </p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/viber_image_2019-12-17_11-27-36.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__left">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>CINESTAR HCM - TUYỂN NHÂN VIÊN KẾ TOÁN TỔNG HỢP</h3>
+                      <p>Cinestar Cinema - Hệ thống cụm rạp Việt Nam được đầu tư theo tiêu chuẩn chất lượng Âu Mỹ - đang
+                        tìm kiếm những ứng viên tài năng gia nhập vào công ty để không ngừng mở rộng và phát triển quy
+                        mô. </p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/shutterstock_560877814-632x422.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__right">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>HCM- TUYỂN NHÂN SỰ THẨM ĐỊNH DỰ ÁN</h3>
+                      <p>Trong quá trình phát triển, chúng tôi luôn cần những người đồng hành để cùng nhau xây dựng
+                        thương hiệu cho người Việt Nam. Với vô vàn cơ hội đầu tư và phát triển mới chúng tôi cần những
+                        chuyên viên tư vấn để định hướng phát triển các dự án mới cho CINESTAR . Các thông tin chi tiết
+                        của vị trí nhân lực này xin xem tại đây.</p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/the-career-of-an-engineer.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__right">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>CINESTAR HCM - TUYỂN NHÂN VIÊN PHỤC VỤ KHÁCH HÀNG </h3>
+                      <p>Cinestar chào đón những nhân viên trẻ trung, năng động, tài năng, ham học hỏi, nhiều hoài bão
+                        và mong muốn thể hiện tài năng gia nhập đội ngũ của chúng tôi. </p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/cinestar-qth.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__left">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>TUYỂN DỤNG NHÂN VIÊN THIẾT KẾ - GRAPHIC DESIGNER</h3>
+                      <p>Tham gia đội ngũ Cinestar bạn sẽ đảm nhiệm những công việc liên quan đến phim ảnh : Thiết kế
+                        Poster, Banner liện quan đến phim ảnh, hình ảnh bên trong rạp. Được cập nhật thông tin phim
+                        chiếu rạp mới hàng tuần. </p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/creative-graphic-designer-mockup_23-2147675738.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__left">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>THÔNG TIN TUYỂN DỤNG – GIÁM SÁT SẢNH RẠP PHIM (SUP)</h3>
+                      <p>Bạn đam mê điện ảnh, thường xuyên cập nhật tin tức bộ phim tại các rạp chiếu phim, luôn cập
+                        nhật xu hướng hay đơn giản muốn làm việc trong một môi trường nghệ thuật với những đồng nghiệp
+                        trẻ trung, năng động
+                        Cinestar tạo cơ hội làm việc trong môi trường năng động, chuyên nghiệp, mong muốn được cống
+                        hiến, phát triển bản thân và thăng tiến. </p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/careerdevelopment_logo.png" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1">
+                <div class="new__right">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>TRƯỞNG PHÒNG KINH DOANH </h3>
+                      <p>Cinestar Cinema - Hệ thống cụm rạp Việt Nam được đầu tư theo tiêu chuẩn chất lượng Âu Mỹ - đang
+                        tìm kiếm những ứng viên tài năng gia nhập vào công ty để không ngừng mở rộng và phát triển quy
+                        mô.</p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/hinhnen.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 p-1 mx-auto">
+                <div class="new__right">
+                  <a href="" class="d-flex">
+                    <div class="new__txt">
+                      <h3>“TAN CHẢY” VỚI HÌNH ẢNH SIÊU BỒ CÂU CỰC KỲ ĐÁNG YÊU CỦA SPIES IN DISGUISE.</h3>
+                      <p>Sau hàng loạt thành công với các bom tấn hoạt hình như loạt Ice Age, Rio hay Ferdinand (2017),
+                        hãng Blue Sky sẽ tiếp tục trình làng Spies in Disguise (Tựa Việt: Điệp Viên Ẩn Danh) trong năm
+                        2019 tới đây. Bộ phim hứa hẹn sẽ mang đến cho người xem những phút giây giải trí sảng khoái cùng
+                        nhiều bài học ý nghĩa.</p>
+                    </div>
+                    <div class="new__pic">
+                      <img src="./img/banner-web.jpg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bottom">
+      <div class="container">
+        <div class="bottom__logo"></div>
+        <div class="row bottom__content">
+          <div class="col-6 col-sm-2 bottom__item">
+            <h3>LIÊN KẾT</h3>
+            <div class="bottom__img">
+              <a href="#"><img src="./img/scl_facebook.png" alt=""></a>
+              <a href="#"><img src="./img/scl_youtube.png" alt=""></a>
+            </div>
+            <h3>HOTLINE</h3>
+            <a href="#" class="bottom__call">028 7300 8881</a>
+          </div>
+          <div class="col-6 col-sm-3">
+            <h3>HỆ THỐNG RẠP</h3>
+            <a href="">
+              <p>CineStar Quốc Thanh</p>
+            </a>
+            <a href="">
+              <p class="text__none">CineStar Đà Lạt</p>
+            </a>
+            <a href="">
+              <p>CineStar Hai Bà Trưng</p>
+            </a>
+            <a href="">
+              <p class="text__none">CineStar Bình Dương</p>
+            </a>
+            <a href="">
+              <p>CineStar Huế</p>
+            </a>
+            <a href="">
+              <p class="text__none">CineStar Mỹ Tho</p>
+            </a>
+          </div>
+          <div class="col-6 col-sm-2">
+            <h3>CINESTAR</h3>
+            <a href="">
+              <p>Phim Đang Chiếu</p>
+            </a>
+            <a href="">
+              <p>Phim Sắp Chiếu</p>
+            </a>
+            <a href="">
+              <p>Suất Chiếu Đặc Biệt</p>
+            </a>
+            <a href="">
+              <p>Lịch Chiếu</p>
+            </a>
+            <a href="">
+              <p>Khuyến Mãi</p>
+            </a>
+
+          </div>
+          <div class="col-6 col-sm-2">
+            <h3>THÔNG TIN</h3>
+            <a href="">
+              <p>Giới Thiệu</p>
+            </a>
+            <a href="">
+              <p>Tin Tức</p>
+            </a>
+            <a href="">
+              <p>Hỏi và Đáp</p>
+            </a>
+            <a href="">
+              <p>Liên Hệ</p>
+            </a>
+          </div>
+          <div class="col-6 col-sm-3 mx-auto">
+            <h3>CHÍNH SÁCH VÀ QUY ĐỊNH</h3>
+            <a href="">
+              <p>Quy định chung</p>
+            </a>
+            <a href="">
+              <p>Điều khoản giao dịch</p>
+            </a>
+            <a href="">
+              <p>Chính sách bảo mật</p>
+            </a>
+            <a href="">
+              <p>Thông tin công ty</p>
+            </a>
+          </div>
+        </div>
+        <div class="bottom__icon">
+          <a href="" data-toggle="modal" data-target="#exampleModal1"><img src="./img/g1.png" alt=""></a>
+          <a href="" data-toggle="modal" data-target="#exampleModal2"><img src="./img/g2.png" alt=""></a>
+          <a href="" data-toggle="modal" data-target="#exampleModal3"><img src="./img/g3.jpg" alt=""></a>
+          <a href="" data-toggle="modal" data-target="#exampleModal4"><img src="./img/g4.png" alt=""></a>
+          <a href="" data-toggle="modal" data-target="#exampleModal5"><img src="./img/g5.png" alt=""></a>
+        </div>
+
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="footer__payment">
+      <h2>Chấp nhận thanh toán</h2>
+      <a href=""><img src="./img/cash1.png" alt=""></a>
+      <a href=""><img src="./img/cash2.png" alt=""></a>
+      <a href=""><img src="./img/cash3.png" alt=""></a>
+      <a href=""><img src="./img/cash4.png" alt=""></a>
+      <a href=""><img src="./img/cash5.jpg" alt=""></a>
+    </div>
+    <div class="footer__copyright">
+      <div>
+        <img src="./img/cash6.png" alt="">
+        <p>CÔNG TY CỔ PHẦN GIẢI TRÍ PHÁT HÀNH PHIM – RẠP CHIẾU PHIM NGÔI SAO
+          <br>
+
+          Địa chỉ: 135 Hai Bà Trưng, phường Bến Nghé, Quận 1, TP.HCM
+          <br>
+
+          Giấy CNĐKDN số: 0312742744, đăng ký lần đầu ngày 18/04/2014, đăng ký thay đổi lần thứ 2 ngày 15/09/2014, cấp
+          bởi Sở KH&ĐT TP.HCM
+          <br><br>
+
+          2015 © <strong>CINESTAR</strong>.. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="backToTop cd-top text-replace js-cd-top">
+
+  </a>
+
+  <!-- Modal Movie img -->
+  <!-- Modal DOLBY -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>DOBLY ATMOS - CÔNG NGHỆ ÂM THANH MỚI MANG TÍNH ĐỘT PHÁ</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Dolby Atmos – sự phát triển đáng kể nhất trong công nghệ âm thanh kể từ âm thanh vòm, đang tạo ra sự thay
+            đổi độc đáo trong kĩ thuật thiết kế âm thanh phân lớp, hiện đã có mặt tại Việt Nam và sẵn sàng phục vụ khách
+            hàng tại CineStar Cinema</p>
+          <p>Dolby Atmos sử dụng thiết kế phân lớp tân tiến để tạo nên các rãnh âm thanh. Lớp nền bao gồm các dải âm
+            thanh môi trường tĩnh được phối theo phương pháp âm thanh phân luồng quen thuộc. Các lớp trên trần bao gồm
+            các yếu tố âm thanh động được định hướng và thay đổi một cách chính xác theo hình ảnh hiển thị trên màn hình
+            trong rạp. Bằng cách lắp đặt hệ thống loa ở trên đầu và xung quanh, Dolby Atmos có thể khiến khán giả trải
+            nghiệm những âm thanh trung thực và tự nhiên như thật của bộ phim.</p>
+          <h5>TẠI SAO DOLBY ATMOS CÓ THỂ TẠO NÊN SỰ KHÁC BIỆT KHI TRẢI NGHIỆM ĐIỆN ẢNH</h5>
+          <p><i>- Âm thanh rõ ràng và được định hướng một cách chính xác hơn; Sự trộn âm có định hướng đối tượng từ các
+              yếu tố âm thanh theo lớp độc lập đến âm thanh phân luồng.</i></p>
+          <p><i>- Kết nối ý đồ của đạo diễn từ dữ liệu mô tả và phát lại theo công nghệ âm thanh được trang bị cho từng
+              phòng chiếu.</i></p>
+          <p><i>- Tự động tạo ra các rãnh âm thanh tối ưu cho các phòng chiếu 5.1 và 7.1</i></p>
+          <p><i>- Tạo ra trải nghiệm âm thanh sống động, trung thực thông qua 128 yếu tố âm thanh đồng thời và không bị
+              mất đi khi phối âm.</i></p>
+          <p><i>- Quy mô được điều chỉnh theo kích cỡ của từng phòng chiếu với hệ thống lên đến 64 loa độc lập với
+              nhau.</i></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- MODAL CHRISTINE -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>Máy chiếu CHRISTIE</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <pMáy chiếu Christie là giải pháp hình ảnh cao cấp cho nhu cầu giải trí, với độ phân giải 1080p - 4k. ( có số
+            điểm ảnh bề ngang cao gấp 4 lần so với chuẩn full HD). Ngoài ra máy còn mang đến cho khán giả những trải
+            nghiệm hình ảnh chân thật hơn nhờ hệ thống thấu kính của mình.</p>
+            <p>Dolby Atmos sử dụng thiết kế phân lớp tân tiến để tạo nên các rãnh âm thanh. Lớp nền bao gồm các dải âm
+              thanh môi trường tĩnh được phối theo phương pháp âm thanh phân luồng quen thuộc. Các lớp trên trần bao gồm
+              các yếu tố âm thanh động được định hướng và thay đổi một cách chính xác theo hình ảnh hiển thị trên màn
+              hình
+              trong rạp. Bằng cách lắp đặt hệ thống loa ở trên đầu và xung quanh, Dolby Atmos có thể khiến khán giả trải
+              nghiệm những âm thanh trung thực và tự nhiên như thật của bộ phim.</p>
+            <P>Với hệ thống máy chiếu Christie đã được trang bị, CineStar Cinema hy vọng sẽ mang lại những trải nghiệm
+              điện ảnh đích thực dành cho khán giả.</P>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- MODAL 2D -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>Công nghệ chiếu phim 2D Digital</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <pMáy chiếu Christie là giải pháp hình ảnh cao cấp cho nhu cầu giải trí, với độ phân giải 1080p - 4k. ( có số
+            điểm ảnh bề ngang cao gấp 4 lần so với chuẩn full HD). Ngoài ra máy còn mang đến cho khán giả những trải
+            nghiệm hình ảnh chân thật hơn nhờ hệ thống thấu kính của mình.</p>
+            <p>Công nghệ chiếu phim 2D Digital là công nghệ chiếu phim kỹ thuật số 2 chiều, mang tới hình ảnh rõ nét cho
+              khán giả yêu điện ảnh. Khán giả sẽ không phải mang kính khi xem phim 2D Digital.</p>
+            <P>So với công nghệ chiếu phim 35mm sử dụng bản phim nhựa, thì định dạng 2D Digital sẽ giải quyết trọn vẹn
+              vấn đề xước bản phim gây khó chịu cho khán giả, mang lại hình ảnh sắc nét hơn.</P>
+            <P>Hiện tại, tất cả phòng chiếu của CineStar đều trang bị công nghệ chiếu phim 2D Digital.</P>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- MODAL 3D2 -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>Công nghệ chiếu phim 3D Digital</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Máy chiếu Christie là giải pháp hình ảnh cao cấp cho nhu cầu giải trí, với độ phân giải 1080p - 4k. ( có số
+            điểm ảnh bề ngang cao gấp 4 lần so với chuẩn full HD). Ngoài ra máy còn mang đến cho khán giả những trải
+            nghiệm hình ảnh chân thật hơn nhờ hệ thống thấu kính của mình.</p>
+          <p>So với công nghệ chiếu phim 2D Digital (Kỹ thuật số 2 chiều), công nghệ 3D Digital (Kỹ thuật số 3 chiều)
+            cho phép khán giả cảm nhận thêm chiều sâu của hình ảnh, giúp cho không gian điện ảnh trở nên sống động như
+            không gian thực mà chúng ta đang sống.</p>
+          <P>Phim 3D được quay từ tối thiểu hai máy cùng một lúc, từ hai góc nhìn khác nhau tương ứng với hoạt động
+            của hai mắt người. Khi xem phim khán giả sẽ cần đeo kính 3D để lọc hình ảnh cho mỗi mắt, khi qua não bộ sẽ
+            chập lại tạo thành hình ảnh không gian ba chiều.</P>
+          <P>Các phòng chiếu phim 3D Digital này đều sử dụng màn hình tráng bạc để giảm thiểu lượng hao hụt ánh sáng
+            một cách tối đa.</P>
+          <img src="./img/3d2.jpg" alt="" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- MODAL Cinestar coffee -->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>Cinestar Coffee</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Nằm trong chuỗi các dự án được đầu tư tâm huyết, CINESTAR COFFEE là một mô hình hoàn toàn mới khi có sự kết
+            hợp giữa Rạp Chiếu Phim và cửa hàng coffee shop - vừa sở hữu nét điện ảnh, vừa đậm chất nghệ thuật thưởng
+            thức cà phê. Với không gian mở & bày trí hiện đại, bạn có thể dễ dàng lựa chọn một góc thư giãn với nhiều
+            loại thức uống có mức giá trung bình từ 30.000đ - 50.000đ tại CINESTAR COFFEE.</p>
+          <p>CINESTAR COFFEE, Trải nghiệm tiện lợi - Thoải mái thư giãn, hứa hẹn sẽ trở thành một nơi lý tưởng dành cho
+            các bạn trẻ & giới văn phòng.</p>
+          <p>Hệ thống CINESTAR COFFEE đã có mặt tại:</p>
+          <p>+ 271 Nguyễn Trãi, Q.1, TPHCM - Tel: (028) 7300 8881</p>
+          <p>+ 135 Hai Bà Trưng, Q.1, TPHCM - Tel: (028) 7300 7279</p>
+          <p>+ Quảng trường Lâm Viên, P.10, TP. Đà Lạt, Tỉnh Lâm Đồng - Tel: (0263) </p>
+          <p>+ Thêm thông tin tại: https://www.facebook.com/cinestarcoffeeshop/ </p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <!-- OWL CAROUSEL JS -->
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>$('#owl__banner').owlCarousel({
+      // loop ví dụ đang ở item thứ 3 nó sẽ lặp lại nếu là true
+      loop: true,
+      // khoảng cách giữa 2 items
+      margin: 10,
+      nav: false,
+      animateOut: 'fadeOut',
+      // chỉnh cho tự động chạy
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      // hiển thị tùy theo kích thước màn hình, các vùng kích thước màn hình
+      responsive: {
+        0: {
+          items: 1,
+
+        },
+        600: {
+          items: 1,
+
+        },
+        1000: {
+          items: 1,
+
+
+        }
+      }
+    })</script>
+  <script>$('#owl__nowMovie').owlCarousel({
+      // loop ví dụ đang ở item thứ 3 nó sẽ lặp lại nếu là true
+      loop: true,
+      // khoảng cách giữa 2 items
+      margin: 20,
+      nav: true,
+      animateOut: 'fadeOut',
+      // chỉnh cho tự động chạy
+      autoplay: true,
+      autoplayTimeout: 3000,
+      dots: false,
+      autoplayHoverPause: true,
+      // hiển thị tùy theo kích thước màn hình, các vùng kích thước màn hình
+      responsive: {
+        0: {
+          items: 1,
+
+        },
+        600: {
+          items: 3,
+
+        },
+        1000: {
+          items: 5,
+
+
+        }
+      }
+    })</script>
+  <script>$('#owl__nowMovie1').owlCarousel({
+      // loop ví dụ đang ở item thứ 3 nó sẽ lặp lại nếu là true
+      loop: true,
+      // khoảng cách giữa 2 items
+      margin: 20,
+      nav: true,
+      animateOut: 'fadeOut',
+      // chỉnh cho tự động chạy
+      autoplay: true,
+      autoplayTimeout: 3000,
+      dots: false,
+      autoplayHoverPause: true,
+      // hiển thị tùy theo kích thước màn hình, các vùng kích thước màn hình
+      responsive: {
+        0: {
+          items: 1,
+
+        },
+        600: {
+          items: 3,
+
+        },
+        1000: {
+          items: 5,
+
+
+        }
+      }
+    })</script>
+  <script>$('#owl__nowMovie2').owlCarousel({
+      // loop ví dụ đang ở item thứ 3 nó sẽ lặp lại nếu là true
+      loop: false,
+      // khoảng cách giữa 2 items
+      margin: 20,
+      nav: false,
+      animateOut: 'fadeOut',
+      // chỉnh cho tự động chạy
+      autoplay: true,
+      autoplayTimeout: 3000,
+      dots: false,
+      autoplayHoverPause: true,
+      // hiển thị tùy theo kích thước màn hình, các vùng kích thước màn hình
+      responsive: {
+        0: {
+          items: 1,
+
+        },
+        600: {
+          items: 1,
+
+        },
+        1000: {
+          items: 1,
+
+
+        }
+      }
+    })</script>
+  <script>$('#owl__promotion').owlCarousel({
+      // loop ví dụ đang ở item thứ 3 nó sẽ lặp lại nếu là true
+      loop: false,
+      // khoảng cách giữa 2 items
+      margin: 20,
+      nav: false,
+      animateOut: 'fadeOut',
+      // chỉnh cho tự động chạy
+      autoplay: true,
+      autoplayTimeout: 3000,
+      dots: true,
+      autoplayHoverPause: true,
+      // hiển thị tùy theo kích thước màn hình, các vùng kích thước màn hình
+      responsive: {
+        0: {
+          items: 1,
+
+        },
+        600: {
+          items: 2,
+
+        },
+        1000: {
+          items: 3,
+
+
+        }
+      }
+    })</script>
+
+  <!-- VENOBOX JS -->
+  <script src="./js/venobox.min.js"></script>
+  <script>
+    $('.venobox_custom').venobox({
+      framewidth: '960px',                            // default: ''
+      frameheight: '540px',                            // default: ''
+      border: '10px',                             // default: '0'
+      bgcolor: '#0a0a0ab6',                          // default: '#fff'
+      titleattr: 'data-title',                       // default: 'title'
+      numeratio: true,                               // default: false
+      infinigall: true,                               // default: false
+      autoplay: true,
+    });
+  </script>
+  <script>
+    $(window).scroll(function () {
+      if ($(window).scrollTop() >= 100) {
+        $('.header__container').addClass('hide');
+
+      } else {
+        $('.header__container').removeClass('hide');
+      }
+    });
+  </script>
+
+  <!-- BACK TO TOP -->
+  <script src="./js/main.js"></script>
+  <script src="./js/util.js"></script>
+
+</body>
+
+</html>

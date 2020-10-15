@@ -1,0 +1,34 @@
+.caroulsel__content {
+    position: relative;
+    .item img {
+        width: 100%;
+        height: auto;
+    }
+    .owl-dots {
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        .owl-dot {
+            margin: 0 2px;
+            transition: all 0.5s;
+            outline: none;
+            border-radius: 50%;
+            color: $color-white-0;
+            border-color: $color-white-0;
+            &:hover {
+                border: 1px solid $color-white-0;
+            }
+        }
+        .owl-dot span {
+            width: 12px;
+            height: 12px;
+            &:hover {
+                background: $color-white-0;
+            }
+        }
+        .owl-dot.active span,
+        .owl-dot:hover span {
+            background: $color-white-0 !important;
+        }
+    }
+}
